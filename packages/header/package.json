@@ -1,0 +1,20 @@
+{
+  "name": "header",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/esm/index.js",
+  "typings": "dist/esm/index.d.ts",
+  "scripts": {
+    "build": "father build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
